@@ -1,0 +1,39 @@
+:root {
+  --primary: #f5f5f5;
+  --accent: #4682b4;
+  --font: "Helvetica Neue", sans-serif;
+  --text: #333;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  background: var(--primary);
+  color: var(--text);
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+h1, h2, h3 {
+  color: var(--accent);
+}
+
+img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+section {
+  margin-bottom: 2rem;
+}
